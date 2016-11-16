@@ -1,0 +1,29 @@
+ul	{
+	background: orangered;
+	text-align: center;
+	padding: 0; /*enlever le padding-left par défaut */
+	}
+
+li {
+	display: inline-block; /*affiche les li en ligne */
+	width: 100px;
+	margin-left: 10px;
+	}
+
+lifirst-child {
+	margin-left: 0;
+		}
+
+a {
+	color: #FFF;
+	background: rgba(255, 255, 255,.3);
+	display: block; /*pour que les liens prennent tout l'espace*/
+	padding: 1em 0;
+	font-family: sans-serif;
+	text-decoration: none;
+
+		}
+
+a:hover /*changer de couleur quand on passe dessus*/ {
+	background: rgba(255, 255, 255, .5);
+		}
